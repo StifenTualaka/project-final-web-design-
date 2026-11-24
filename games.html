@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store - RYZARD</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="games-page">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark games-navbar">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">🎮 RYZARD</a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="games.html">Games</a>
+                <a class="nav-link" href="cart.html">
+                    Keranjang (<span class="cart-count">0</span>)
+                </a>
+                <a class="nav-link" href="about.html">Tentang</a>
+                <a class="nav-link" href="contact.html">Kontak</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!-- BANNER KATALOG -->
+<header class="store-banner">
+    <div class="container">
+        <span class="store-label">RYZARD DIGITAL STORE</span>
+        <h1>GAME <span>COLLECTION</span></h1>
+        <p>Explore thousands of adventures. Find your next favorite game.</p>
+    </div>
+</header>
+
+
+<!-- KATALOG -->
+<main class="container store-container">
+
+    <div class="store-heading">
+        <div>
+            <span class="store-label">DISCOVER YOUR NEXT GAME</span>
+            <h2>Browse Games</h2>
+        </div>
+        <span class="collection-tag">2026 COLLECTION</span>
+    </div>
+
+
+    <!-- PENCARIAN DAN FILTER -->
+    <div class="store-filter">
+        <div class="row g-3">
+
+            <div class="col-lg-6">
+                <input type="text" id="search"
+                    class="form-control"
+                    placeholder="Search games...">
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <select id="genre" class="form-select">
+                    <option value="all">All Genres</option>
+                    <option value="RPG">RPG</option>
+                    <option value="FPS">FPS</option>
+                    <option value="Racing">Racing</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="MOBA">MOBA</option>
+                    <option value="Horror">Horror</option>
+                </select>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <select id="platform" class="form-select">
+                    <option value="all">All Platforms</option>
+                    <option value="PC">PC</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Console">Console</option>
+                    <option value="Xbox">Xbox</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- DAFTAR GAME -->
+    <div class="store-heading">
+        <div>
+            <h2>Available Games</h2>
+            <p>Choose your game and start playing.</p>
+        </div>
+    </div>
+
+    <div class="row g-4" id="game-list"></div>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer class="store-footer">
+    <div class="container">
+        <h4>🎮 RYZARD GAME STORE</h4>
+        <p>Discover. Play. Enjoy.</p>
+        <p class="mb-0">© 2026 RYZARD Game Shop</p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

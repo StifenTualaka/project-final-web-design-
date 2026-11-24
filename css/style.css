@@ -1,0 +1,1374 @@
+body {
+    background: #080d18;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: #101a2d;
+    border-bottom: 1px solid #263750;
+}
+
+.navbar-brand {
+    color: #00d9ff !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #00d9ff !important;
+}
+
+.hero {
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    background:
+    linear-gradient(90deg, #050a14eF, #050a1470),
+    url("img game shop/desktop-full-hd-shooter-game-background.jpg")
+    center/cover;
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #00d9ff;
+}
+
+.hero h3 {
+    margin: 15px 0;
+}
+
+.hero p {
+    color: #d0d8e8;
+}
+
+.section-title {
+    color: #00d9ff;
+}
+
+.muted {
+    color: #aab7ce;
+}
+
+.game-card,
+.info-card {
+    background: #111b2e;
+    border: 1px solid #263750;
+    border-radius: 12px;
+    padding: 18px;
+    height: 100%;
+}
+
+.game-card {
+    padding: 0;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    border-color: #00d9ff;
+}
+
+.game-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.game-card .card-body {
+    padding: 15px;
+}
+
+.price {
+    color: #00d9ff;
+    font-weight: bold;
+}
+
+.form-control,
+.form-select {
+    background: #0b1424;
+    color: white;
+    border: 1px solid #34445e;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background: #0b1424;
+    color: white;
+    border-color: #00d9ff;
+}
+
+.form-select option {
+    background: #0b1424;
+}
+
+.btn-primary {
+    background: #176bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #00a9d6;
+}
+
+.cart-row {
+    background: #111b2e;
+    padding: 18px;
+    border: 1px solid #263750;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    background: #050912;
+    color: #aab7ce;
+}
+
+@media(max-width:768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+}
+
+/* HERO HOME */
+.hero {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #080d18, #172554, #111827);
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+
+.hero h1 span {
+    color: #00d4ff;
+}
+
+.hero p {
+    color: #cbd5e1;
+    font-size: 17px;
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+/* CATEGORY */
+.category-card {
+    background: #1f2937;
+    padding: 30px 15px;
+    border-radius: 15px;
+    border: 1px solid #374151;
+    transition: 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-7px);
+    border-color: #00d4ff;
+}
+
+.category-card h3 {
+    font-size: 40px;
+}
+
+.category-card h5 {
+    color: #00d4ff;
+    margin-top: 15px;
+}
+
+.category-card p {
+    color: #9ca3af;
+}
+
+/* PROMO */
+.promo-banner {
+    background: linear-gradient(135deg, #172554, #0e7490);
+    color: white;
+}
+
+.promo-banner p {
+    margin: 15px 0 25px;
+}
+
+/* FOOTER */
+footer a {
+    color: #00d4ff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .hero {
+        padding: 65px 0;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+}
+
+/* =================================
+   GAMES STORE PAGE
+================================= */
+
+.games-page {
+    background: #101923;
+    color: #ffffff;
+}
+
+/* NAVBAR */
+
+.games-navbar {
+    background: #171f2b;
+    padding: 16px 0;
+    border-bottom: 1px solid #304052;
+}
+
+.games-navbar .navbar-brand {
+    color: #00c8ff;
+    font-size: 24px;
+}
+
+.games-navbar .nav-link {
+    color: #c5d3df;
+}
+
+.games-navbar .nav-link:hover,
+.games-navbar .nav-link.active {
+    color: #00c8ff;
+}
+
+
+/* BANNER */
+
+.store-banner {
+    padding: 90px 0;
+    background:
+        linear-gradient(90deg, #081525, #123b59, #172554);
+    border-bottom: 1px solid #304052;
+}
+
+.store-label {
+    color: #00c8ff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.store-banner h1 {
+    font-size: clamp(42px, 7vw, 75px);
+    font-weight: 900;
+    margin: 15px 0;
+}
+
+.store-banner h1 span {
+    color: #00c8ff;
+}
+
+.store-banner p {
+    color: #bdcbd8;
+    font-size: 17px;
+}
+
+
+/* KATALOG */
+
+.store-container {
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+
+.store-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.store-heading h2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.store-heading p {
+    color: #91a4b7;
+}
+
+.collection-tag {
+    background: #1b3449;
+    color: #00c8ff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* FILTER */
+
+.store-filter {
+    background: #1b2838;
+    padding: 20px;
+    border: 1px solid #34485b;
+    border-radius: 8px;
+    margin-bottom: 45px;
+}
+
+.store-filter .form-control,
+.store-filter .form-select {
+    background: #101923;
+    color: white;
+    border: 1px solid #34485b;
+    padding: 13px;
+}
+
+.store-filter .form-control::placeholder {
+    color: #91a4b7;
+}
+
+.store-filter option {
+    background: #101923;
+    color: white;
+}
+
+.store-filter .form-control:focus,
+.store-filter .form-select:focus {
+    border-color: #00c8ff;
+    box-shadow: 0 0 0 3px rgba(0, 200, 255, 0.12);
+}
+
+
+/* GAME CARD */
+
+.games-page #game-list .game-card {
+    height: 100%;
+    background: #1b2838;
+    border: 1px solid #34485b;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.games-page #game-list .game-card:hover {
+    transform: translateY(-7px);
+    border-color: #00c8ff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.games-page #game-list .game-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.games-page #game-list .game-card:hover img {
+    transform: scale(1.04);
+}
+
+.games-page #game-list .card-body {
+    padding: 18px;
+    color: white;
+}
+
+.games-page #game-list .card-title {
+    color: white;
+    font-weight: bold;
+}
+
+.games-page #game-list .card-text {
+    color: #a9bac9;
+}
+
+.games-page #game-list .btn {
+    width: 100%;
+    background: #087eb8;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.games-page #game-list .btn:hover {
+    background: #00a9e8;
+}
+
+
+/* FOOTER */
+
+.store-footer {
+    background: #171f2b;
+    border-top: 1px solid #304052;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.store-footer h4 {
+    color: #00c8ff;
+    font-weight: bold;
+}
+
+.store-footer p {
+    color: #91a4b7;
+    margin-top: 10px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    .store-banner {
+        padding: 65px 0;
+    }
+
+    .store-heading h2 {
+        font-size: 23px;
+    }
+
+    .collection-tag {
+        display: none;
+    }
+}
+
+/* =================================
+   RYZARD SHOPPING CART
+================================= */
+
+.cart-page {
+    background: #101923;
+    color: #ffffff;
+}
+
+/* NAVBAR */
+
+.cart-navbar {
+    background: #171f2b;
+    padding: 16px 0;
+    border-bottom: 1px solid #304052;
+}
+
+.cart-navbar .navbar-brand {
+    color: #00c8ff;
+    font-size: 24px;
+}
+
+.cart-navbar .nav-link {
+    color: #c5d3df;
+}
+
+.cart-navbar .nav-link:hover,
+.cart-navbar .nav-link.active {
+    color: #00c8ff;
+}
+
+
+/* CART BANNER */
+
+.cart-banner {
+    padding: 55px 0;
+    background: linear-gradient(120deg, #081525, #123b59, #172554);
+    border-bottom: 1px solid #304052;
+}
+
+.cart-banner span {
+    color: #00c8ff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.cart-banner h1 {
+    font-size: 42px;
+    font-weight: 900;
+    margin: 12px 0;
+}
+
+.cart-banner p {
+    color: #bdcbd8;
+    margin-bottom: 0;
+}
+
+
+/* CART CONTENT */
+
+.cart-container {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.cart-panel,
+.checkout-card {
+    background: #1b2838;
+    border: 1px solid #34485b;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.cart-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #34485b;
+    padding-bottom: 18px;
+    margin-bottom: 20px;
+}
+
+.cart-panel-header h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cart-panel-header span {
+    color: #91a4b7;
+    font-size: 13px;
+}
+
+
+/* CART ITEMS */
+
+.cart-page #cart-items {
+    color: white;
+}
+
+.cart-page #cart-items .card {
+    background: #233448;
+    border: 1px solid #34485b;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.cart-page #cart-items .card-body {
+    color: white;
+}
+
+.cart-page #cart-items img {
+    object-fit: cover;
+}
+
+.cart-page #cart-items h5,
+.cart-page #cart-items h6 {
+    color: white;
+}
+
+.cart-page #cart-items p {
+    color: #bdcbd8;
+}
+
+.cart-page #cart-items button {
+    margin: 3px;
+}
+
+.continue-shopping {
+    display: inline-block;
+    margin-top: 20px;
+    color: #00c8ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.continue-shopping:hover {
+    color: white;
+}
+
+
+/* CHECKOUT */
+
+.checkout-card {
+    position: sticky;
+    top: 90px;
+}
+
+.checkout-header span {
+    color: #00c8ff;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.checkout-header h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.checkout-total {
+    background: #243a50;
+    padding: 18px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.checkout-total span {
+    color: #a9bac9;
+    font-size: 13px;
+}
+
+.checkout-total h2 {
+    color: #00c8ff;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.checkout-card hr {
+    border-color: #52677c;
+    margin: 22px 0;
+}
+
+.checkout-card form h5 {
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.checkout-card label {
+    color: #bdcbd8;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.checkout-card .form-control,
+.checkout-card .form-select {
+    background: #101923;
+    border: 1px solid #34485b;
+    color: white;
+    padding: 12px;
+    margin-bottom: 17px;
+}
+
+.checkout-card .form-control::placeholder {
+    color: #91a4b7;
+}
+
+.checkout-card .form-select option {
+    background: #101923;
+    color: white;
+}
+
+.checkout-btn {
+    background: #087eb8;
+    color: white;
+    font-weight: bold;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.checkout-btn:hover {
+    background: #00a9e8;
+    color: white;
+}
+
+.secure-info {
+    color: #91a4b7;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+
+/* FOOTER */
+
+.cart-footer {
+    background: #171f2b;
+    border-top: 1px solid #304052;
+    padding: 35px 0;
+}
+
+.cart-footer h4 {
+    color: #00c8ff;
+    font-weight: bold;
+}
+
+.cart-footer p {
+    color: #91a4b7;
+    margin-top: 10px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .cart-banner h1 {
+        font-size: 32px;
+    }
+
+    .cart-panel,
+    .checkout-card {
+        padding: 18px;
+    }
+
+    .cart-panel-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .checkout-card {
+        position: static;
+    }
+}
+
+/* =====================================
+   ABOUT PAGE
+===================================== */
+
+.about-page {
+    background: #10141d;
+    color: white;
+}
+
+.about-banner {
+    padding: 90px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #101c35, #063b68);
+}
+
+.about-banner span,
+.section-label {
+    color: #00aaff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.about-banner h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.about-banner p {
+    color: #c5d2e0;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.about-content p {
+    color: #b9c4d2;
+    line-height: 1.8;
+}
+
+.about-feature {
+    background: linear-gradient(145deg, #172b47, #0b1a2e);
+    border: 1px solid #24476d;
+    border-radius: 18px;
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.about-icon {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.about-feature p {
+    color: #b9c4d2;
+}
+
+.about-advantages h2,
+.platform-section h2 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.about-advantages > .text-center > p {
+    color: #aab7c8;
+}
+
+.advantage-card {
+    background: #182231;
+    border: 1px solid #283b52;
+    border-radius: 15px;
+    padding: 30px 20px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.advantage-card:hover {
+    transform: translateY(-7px);
+    border-color: #00aaff;
+}
+
+.advantage-card h3 {
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+
+.advantage-card h5 {
+    font-weight: bold;
+}
+
+.advantage-card p {
+    color: #aab7c8;
+    margin-bottom: 0;
+}
+
+.platform-card {
+    background: #182231;
+    border: 1px solid #283b52;
+    border-radius: 15px;
+    padding: 30px 10px;
+    text-align: center;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.platform-card:hover {
+    transform: translateY(-5px);
+    border-color: #00aaff;
+}
+
+.platform-card h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.platform-card p {
+    color: #aab7c8;
+    margin-bottom: 0;
+}
+
+.about-page footer {
+    background: #080d16;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 50px;
+}
+
+.about-page footer p {
+    color: #aab7c8;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 576px) {
+    .about-banner h1 {
+        font-size: 34px;
+    }
+
+    .about-content h2 {
+        font-size: 28px;
+    }
+}
+
+/* =====================================
+   CONTACT PAGE
+===================================== */
+
+.contact-page {
+    background: #10141d;
+    color: white;
+}
+
+.contact-banner {
+    padding: 85px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #17233d, #075078);
+}
+
+.contact-banner span,
+.contact-label {
+    color: #00aaff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.contact-banner h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.contact-banner p {
+    color: #c5d2e0;
+}
+
+.contact-information {
+    background: linear-gradient(145deg, #172b47, #0b1a2e);
+    border: 1px solid #294767;
+    border-radius: 18px;
+    padding: 35px 25px;
+    height: 100%;
+}
+
+.contact-information h2,
+.contact-form-card h2 {
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.contact-information > p,
+.contact-form-card > p {
+    color: #aebdce;
+    line-height: 1.7;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #30445c;
+}
+
+.contact-icon {
+    background: #203c5c;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.contact-item h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    color: #b5c4d5;
+    margin-bottom: 0;
+    overflow-wrap: anywhere;
+}
+
+.contact-form-card {
+    background: #182231;
+    border: 1px solid #283b52;
+    border-radius: 18px;
+    padding: 35px;
+    height: 100%;
+}
+
+.contact-form-card .form-control {
+    background: #101923;
+    border: 1px solid #34475d;
+    color: white;
+    padding: 12px;
+}
+
+.contact-form-card .form-control:focus {
+    background: #101923;
+    color: white;
+    border-color: #00aaff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 170, 255, 0.15);
+}
+
+.contact-form-card .form-control::placeholder {
+    color: #8292a5;
+}
+
+.contact-form-card .form-label {
+    color: #dce6f1;
+}
+
+.contact-bottom {
+    text-align: center;
+    padding: 45px 20px;
+    background: linear-gradient(135deg, #172b47, #0b1a2e);
+    border-radius: 18px;
+    border: 1px solid #294767;
+}
+
+.contact-bottom h3 {
+    font-weight: bold;
+}
+
+.contact-bottom p {
+    color: #b5c4d5;
+    margin: 15px 0 25px;
+}
+
+.contact-page footer {
+    background: #080d16;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 50px;
+}
+
+.contact-page footer p {
+    color: #aab7c8;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 576px) {
+    .contact-banner h1 {
+        font-size: 34px;
+    }
+
+    .contact-form-card {
+        padding: 25px 20px;
+    }
+}
+
+/* =====================================
+   HOME PAGE RYZARD
+===================================== */
+
+.home-page {
+    background: #0c111b;
+    color: white;
+}
+
+/* NAVBAR */
+
+.home-navbar {
+    background: #080d16;
+    padding: 18px 0;
+    border-bottom: 1px solid #24364c;
+}
+
+.home-navbar .navbar-brand {
+    font-size: 25px;
+}
+
+.home-navbar .nav-link {
+    margin-left: 12px;
+    transition: 0.3s;
+}
+
+.home-navbar .nav-link:hover,
+.home-navbar .nav-link.active {
+    color: #00aaff;
+}
+
+
+/* HERO */
+
+.home-hero {
+    padding: 85px 0;
+    background:
+        radial-gradient(circle at 80% 30%, #12375a, transparent 40%),
+        linear-gradient(135deg, #101b2c, #080d16);
+}
+
+.hero-label {
+    display: inline-block;
+    color: #00c8ff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.home-hero h1 {
+    font-size: clamp(35px, 5vw, 58px);
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 25px;
+}
+
+.home-hero h1 span {
+    color: #00aaff;
+}
+
+.home-hero p {
+    color: #b5c3d5;
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.home-hero .btn {
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+
+
+/* CAROUSEL */
+
+#ryzardCarousel {
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #315477;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.5);
+}
+
+#ryzardCarousel .carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#ryzardCarousel .carousel-item {
+    position: relative;
+}
+
+#ryzardCarousel .carousel-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.85),
+        transparent 65%
+    );
+}
+
+#ryzardCarousel .carousel-caption {
+    z-index: 2;
+    text-align: left;
+    left: 10%;
+    right: 10%;
+    bottom: 45px;
+}
+
+#ryzardCarousel .carousel-caption span {
+    color: #00c8ff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#ryzardCarousel .carousel-caption h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 8px;
+}
+
+#ryzardCarousel .carousel-caption p {
+    color: white;
+    margin-bottom: 0;
+}
+
+#ryzardCarousel .carousel-control-prev,
+#ryzardCarousel .carousel-control-next {
+    z-index: 3;
+}
+
+
+/* SECTION HEADING */
+
+.home-category {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.section-heading span,
+.section-label {
+    color: #00aaff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.section-heading h2 {
+    font-size: 34px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.section-heading p {
+    color: #aab7c8;
+}
+
+
+/* CATEGORY CARD */
+
+.category-card {
+    background: linear-gradient(145deg, #1a2a40, #111c2c);
+    border: 1px solid #293e56;
+    border-radius: 15px;
+    padding: 30px 15px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-8px);
+    border-color: #00aaff;
+    box-shadow: 0 10px 25px rgba(0, 170, 255, 0.12);
+}
+
+.category-card h3 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.category-card h5 {
+    font-weight: bold;
+}
+
+.category-card p {
+    color: #aab7c8;
+    margin-bottom: 0;
+}
+
+
+/* FEATURED GAMES */
+
+.home-featured {
+    padding-top: 65px;
+    padding-bottom: 70px;
+}
+
+.home-featured h2 {
+    margin-top: 10px;
+}
+
+.home-featured .game-card {
+    background: #182536;
+    border: 1px solid #293e56;
+    border-radius: 13px;
+    overflow: hidden;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.home-featured .game-card:hover {
+    transform: translateY(-7px);
+    border-color: #00aaff;
+}
+
+.home-featured .game-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.home-featured .card-body {
+    padding: 18px;
+}
+
+.home-featured .card-body h5 {
+    color: white;
+    font-weight: bold;
+}
+
+.home-featured .price {
+    color: #00c8ff;
+    font-weight: bold;
+}
+
+
+/* PROMOTION */
+
+.home-promo {
+    padding-bottom: 80px;
+}
+
+.promo-banner {
+    padding: 65px 25px;
+    border-radius: 20px;
+    background:
+        radial-gradient(circle at top right, #075078, transparent 45%),
+        linear-gradient(135deg, #172c49, #0b1422);
+    border: 1px solid #315477;
+}
+
+.promo-banner span {
+    color: #00c8ff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.promo-banner h2 {
+    font-size: 38px;
+    font-weight: 900;
+    margin: 15px 0;
+}
+
+.promo-banner p {
+    color: #bdcad9;
+    margin-bottom: 25px;
+}
+
+
+/* FOOTER */
+
+.home-footer {
+    background: #070b12;
+    padding: 40px 0 20px;
+    border-top: 1px solid #24364c;
+}
+
+.home-footer h3 {
+    font-weight: bold;
+}
+
+.home-footer p {
+    color: #aab7c8;
+}
+
+.home-footer a {
+    color: #b9c9dc;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.home-footer a:hover {
+    color: #00aaff;
+}
+
+.home-footer hr {
+    border-color: #34445a;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .home-hero {
+        padding: 55px 0;
+    }
+
+    #ryzardCarousel .carousel-item img {
+        height: 280px;
+    }
+
+    #ryzardCarousel .carousel-caption h3 {
+        font-size: 21px;
+    }
+
+    #ryzardCarousel .carousel-caption p {
+        font-size: 13px;
+    }
+
+    .promo-banner h2 {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    #ryzardCarousel .carousel-item img {
+        height: 230px;
+    }
+
+    .home-featured .d-flex {
+        align-items: flex-start !important;
+        gap: 12px;
+    }
+
+}
